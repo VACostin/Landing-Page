@@ -1,0 +1,43 @@
+/* Assigment specs */
+
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 800; /* extra bold */
+    color: #F9FAF8;
+}
+
+.hero-second,
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button,
+.call-to-action {
+    background-color: #3882F6;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 800; /* extra bold */
+    color: #1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+/* My input */
