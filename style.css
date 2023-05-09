@@ -7,12 +7,13 @@
 
 .hero-main {
   font-size: 48px;
-  font-weight: 800; /* extra bold */
+  font-weight: 800;
+  /* extra bold */
   color: #F9FAF8;
 }
 
 .hero-second,
-.header-links {
+.header-links>a {
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -29,7 +30,8 @@ button,
 
 .information-header {
   font-size: 36px;
-  font-weight: 800; /* extra bold */
+  font-weight: 800;
+  /* extra bold */
   color: #1F2937;
 }
 
@@ -44,3 +46,33 @@ button,
 }
 
 /* My input */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body>div {
+  width: 100%;
+  display: flex;
+}
+
+.header {
+  flex-direction: column;
+}
+
+.header-top,
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-top {
+  margin: 32px;
+}
+
+.header-links>a {
+  margin:10px;
+  text-decoration: none;
+}
