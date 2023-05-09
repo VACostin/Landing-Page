@@ -58,6 +58,7 @@ body,
 }
 
 body {
+  margin:0px;
   align-items: center;
 }
 
@@ -186,4 +187,16 @@ button {
 
 .call-to-action>button {
   border: 2px solid white;
+}
+
+/* Footer */
+
+.footer {
+  height: 80px;
+}
+
+.footer-text {
+  color: white;
+  text-align: center;
+  margin:auto;
 }
